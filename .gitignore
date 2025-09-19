@@ -1,0 +1,130 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+python.exe
+pythonw.exe
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+ipynb_checkpoints
+*.sqlite3
+.local
+.pyre
+.pyre-check
+.mypy_cache/
+
+# --- Virtual Environment ---
+# Se usi conda
+conda-envs/
+.env
+
+# --- Editor / IDE ---
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*~
+.swp
+.shelve
+
+# Emacs
+*#
+\#*\#
+
+# --- Sistemi Operativi ---
+# Windows
+Thumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+[Dd]esktop.ini
+~$*
+.DS_Store
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# --- Progetto ArcadiaAI Local ---
+# Modelli LLM (GGUF) - TROPPO PESANTI PER GIT
+models/
+!models/.gitkeep  # Opzionale: se vuoi tenere la cartella ma vuota su Git
+
+# Dati della memoria utente (locale)
+memory/
+!memory/.gitkeep
+
+# File temporanei dell'app
+temp/
+temp/*
+!temp/.gitkeep
+
+# Configurazioni locali (se presenti)
+config/local_config.py
+.env
+secrets.py
+
+# Log di sistema
+logs/
+*.log
+
+# Download automatici
+downloads/
+
+# File generati dal Marketplace
+.arcadiaai/cache/
+.arcadiaai/tmp/
+
+# HTML/CSS/JS build (se aggiungi frontend in futuro)
+dist/
+build/
+
+# Streamlit cache
+.streamlit/
+.stfiles/
+
+# --- File specifici ---
+# Eventuali eseguibili generati
+*.exe
+*.msi
+*.zip
+*.tar.gz
+*.whl
+
+# Backup
+*~
+*.bak
+*.tmp
